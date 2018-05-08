@@ -1,0 +1,16 @@
+.login input{
+	 background-color: #665851;
+	 color: white;
+}
+.login-box a{
+	float: right;
+	margin-top: -15px;
+	margin-right: 10px;
+	text-decoration: none;
+}
+.login-box input{
+	margin-bottom: 0;
+}
+.login-display{
+	display: inline-grid;
+}

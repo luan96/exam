@@ -1,0 +1,39 @@
+.login-box{
+	max-width: 650px;
+	top: 80px;
+}
+table{
+	margin: 0 auto;
+	padding-right: 50px;
+}
+.sign_up{
+	float: right;
+}
+.login-box a{
+	float: right;
+    margin-right: 50px;
+    margin-top: -15px;
+    text-decoration: underline;
+}
+form{
+	margin-bottom: -20px;
+}
+.dangky input{
+	background-color: #665851;
+	color: white;
+}
+
+#show_image{
+	margin-top: 5px;
+}
+#show_image img{
+	border: 1px solid #ddd;
+	padding: 1px;
+}
+
+.w100pt {
+	width: 100%;
+}
+.avatar {
+	margin-top: 6px;
+}
