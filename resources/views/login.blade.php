@@ -16,25 +16,25 @@
 <div class="container">
   <div class="login-box animated fadeInUp">
     <div class="box-header">
-      <h2>Đăng Nhập</h2>
+      <h2>Login</h2>
     </div>
     {{ Form::open(['id' => 'form-login']) }}
     <div class="error">
       {{Session::get('login_faiure')}}
     </div>
     <p class="login-display">
-      {{ Form::label('Username', 'Tên đăng nhập:') }}
+      {{ Form::label('Username', 'Username:') }}
       {{ Form::text('username')}}
     </p>
     <p class="login-display">
-      {{ Form::label('password', 'Mật khẩu:') }}
+      {{ Form::label('password', 'Password:') }}
       {{ Form::password('password') }}
     </p>
     <p class="login">
-      {{ Form::submit('Đăng nhập') }}
+      {{ Form::submit('Login') }}
     </p>
     {{ Form::close() }}
-    <a href="{{ asset('/dangky')}}">Đăng_ký</a>
+    <a href="{{ asset('/dangky')}}">Sign_up</a>
   </div>
 </div>
 </body>
