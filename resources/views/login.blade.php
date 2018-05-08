@@ -16,7 +16,7 @@
 <div class="container">
   <div class="login-box animated fadeInUp">
     <div class="box-header">
-      <h2>Login</h2>
+      <h2>Đăng Nhập</h2>
     </div>
     {{ Form::open(['id' => 'form-login']) }}
     <div class="error">
@@ -31,10 +31,10 @@
       {{ Form::password('password') }}
     </p>
     <p class="login">
-      {{ Form::submit('Login') }}
+      {{ Form::submit('Đăng nhập') }}
     </p>
     {{ Form::close() }}
-    <a href="{{ asset('/dangky')}}">Sign_up</a>
+    <a href="{{ asset('/dangky')}}">Đăng_ky</a>
   </div>
 </div>
 </body>
