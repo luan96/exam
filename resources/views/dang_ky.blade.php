@@ -29,7 +29,7 @@
       <tbody>
       <tr>
         <td class="sign_up">
-          {{ Form::label('Username', 'Tên đăng nhập:') }}
+          {{ Form::label('Username', 'Username:') }}
         </td>
         <td>
           {{ Form::text('username', '', ['class' => 'w100pt']) }}
@@ -37,7 +37,7 @@
       </tr>
       <tr>
         <td class="sign_up">
-          {{ Form::label('password', 'Mật khẩu:') }}
+          {{ Form::label('password', 'Password:') }}
         </td>
         <td>
           {{ Form::password('password', ['class' => 'w100pt']) }}
@@ -45,7 +45,7 @@
       </tr>
       <tr>
         <td class="sign_up">
-          {{ Form::label('password_confirmation', 'Xác nhận mật khẩu:') }}
+          {{ Form::label('password_confirmation', 'Password_config:') }}
         </td>
         <td>
           {{ Form::password('password_confirmation', ['class' => 'w100pt']) }}
@@ -53,7 +53,7 @@
       </tr>
       <tr>
         <td class="sign_up">
-          {{ Form::label('name', 'Tên thí sinh:') }}
+          {{ Form::label('name', 'Name:') }}
         </td>
         <td>
           {{ Form::text('name', '', ['class' => 'w100pt']) }}
@@ -61,7 +61,7 @@
       </tr>
       <tr>
         <td class="sign_up">
-          {{ Form::label('birthday', 'Ngày sinh:') }}
+          {{ Form::label('birthday', 'Birthday:') }}
         </td>
         <td>
           {{ Form::date('birthday', '', ['class' => 'w100pt']) }}
@@ -77,7 +77,7 @@
       {{--</tr>--}}
       <tr>
         <td class="sign_up avatar">
-          {{ Form::label('avatar', 'Hình ảnh:') }}
+          {{ Form::label('avatar', 'Avatar:') }}
         </td>
         <td>
           {{ Form::file('avatar', ['class' => 'w100pt', 'onchange' => 'image.handleFiles(this.files)']) }}
